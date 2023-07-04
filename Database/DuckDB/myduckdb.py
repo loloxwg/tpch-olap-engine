@@ -1,5 +1,5 @@
-import duckdb 
-con = duckdb.connect(database=':memory:')
+import Database.DuckDB.myduckdb as myduckdb 
+con = myduckdb.connect(database=':memory:')
 
 
 
